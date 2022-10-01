@@ -1,7 +1,4 @@
 ### HEY WHAT UP
 ### hello
 ### this working?
-[photo here](screenshot.jpg)
-
-
-
+![photo](../../../Desktop/screenshot.jpg)
