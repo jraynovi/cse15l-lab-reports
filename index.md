@@ -1,6 +1,7 @@
 ### HEY WHAT UP
 ### hello
 ### this working?
-[](screenshot.jpg)
+[photo here](screenshot.jpg)
+
 
 
