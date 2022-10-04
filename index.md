@@ -21,3 +21,13 @@
 ### To learn more about what these commands do, you can head to this [link](https://kb.iu.edu/d/afsk), but your terminal will display the directories used, and be correctly switching directories: ![](https://github.com/jraynovi/cse15l-lab-reports/blob/main/command%20test.png?raw=true)
 ## Part 6- Copy your computer to the remote computer
 ### First, we need to log out of our remote computer to work on our own. This is a simple step, where we use the command exit or Ctrl + D to get out of the system.
+### We will now create a create a new java project file named WhereAmI.java in our local computer to test when we run our files. Once you have created the file copy and paste these contents:
+class WhereAmI {
+  public static void main(String[] args) {
+    System.out.println(System.getProperty("os.name"));
+    System.out.println(System.getProperty("user.name"));
+    System.out.println(System.getProperty("user.home"));
+    System.out.println(System.getProperty("user.dir"));
+  }
+}
+### This will allow us to determine whether or not the file compiles when we run it in our terminal using java WhereAmI or javac WhereAmI.java.
