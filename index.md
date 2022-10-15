@@ -26,10 +26,19 @@
 ### We will now create a create a new java project file named WhereAmI.java in our local computer to test when we run our files. Once you have created the file copy and paste these contents:
 class WhereAmI {
   public static void main(String[] args) {
-    System.out.println(System.getProperty("os.name"));
+    System.out.println(System getProperty("os.name"));
     System.out.println(System.getProperty("user.name"));
     System.out.println(System.getProperty("user.home"));
     System.out.println(System.getProperty("user.dir"));
   }
 }
 ### This will allow us to determine whether or not the file compiles when we run it in our terminal using java WhereAmI or javac WhereAmI.java.
+### Using your username again, you will run an scp command in the terminal from the same directory. Example: If my username is 'cs15lfa22@ieng6.ucsd.edu' I will type out 'scp WhereAmI.java cs15lfa22@ieng6.ucsd.edu:~/' into the terminal.
+### After you have entered your password, you are going to long into ieng6 using ssh and use the ls command to find the file allowing you to run the program on the ieng6 computer.
+## Part 7- SSH Keys
+### Using ssh keys makes it possible for us to log in without retyping the password every single time. It does this by creating some files called the public and private key, that will be used in place of your password. 
+### Run the command in the image below and your own terminal should look very similar:![](https://github.com/jraynovi/cse15l-lab-reports/blob/main/Screen%20Shot%202022-10-14%20at%208.55.56%20PM.png?raw=true)
+### If you are on a windows computer, follow this [link](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) to do a few extra steps.
+### You should now have two files in your system named 'id_rsa' and 'ida_rsa.pub'. To get it working, we must copy the public key to the ssh directory of your user account.
+### An example of how to do this is shown below: ![](https://github.com/jraynovi/cse15l-lab-reports/blob/main/Screen%20Shot%202022-10-14%20at%209.03.09%20PM.png?raw=true)
+### You can now test to see if you are able to log in without a password!
