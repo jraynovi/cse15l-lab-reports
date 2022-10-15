@@ -39,8 +39,10 @@ class WhereAmI {
 ### After you have entered your password, you are going to long into ieng6 using ssh and use the ls command to find the file allowing you to run the program on the ieng6 computer.
 ## Part 7- SSH Keys
 ### Using ssh keys makes it possible for us to log in without retyping the password every single time. It does this by creating some files called the public and private key, that will be used in place of your password. 
-### Run the command in the image below and your own terminal should look very similar:![](https://github.com/jraynovi/cse15l-lab-reports/blob/main/Screen%20Shot%202022-10-14%20at%208.55.56%20PM.png?raw=true)
+### Run the command in the image below and your own terminal should look very similar:
+### ![](https://github.com/jraynovi/cse15l-lab-reports/blob/main/Screen%20Shot%202022-10-14%20at%208.55.56%20PM.png?raw=true)
 ### If you are on a windows computer, follow this [link](https://learn.microsoft.com/en-us/windows-server/administration/openssh/openssh_keymanagement#user-key-generation) to do a few extra steps.
 ### You should now have two files in your system named 'id_rsa' and 'ida_rsa.pub'. To get it working, we must copy the public key to the ssh directory of your user account.
-### An example of how to do this is shown below: ![](https://github.com/jraynovi/cse15l-lab-reports/blob/main/Screen%20Shot%202022-10-14%20at%209.03.09%20PM.png?raw=true)
+### An example of how to do this is shown below: 
+### ![](https://github.com/jraynovi/cse15l-lab-reports/blob/main/Screen%20Shot%202022-10-14%20at%209.03.09%20PM.png?raw=true)
 ### You can now test to see if you are able to log in without a password!
