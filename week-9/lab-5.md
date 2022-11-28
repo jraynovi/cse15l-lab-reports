@@ -34,3 +34,4 @@ else
     echo "Your score is 0."
     exit 1
 fi
+```
