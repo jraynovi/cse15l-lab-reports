@@ -9,20 +9,12 @@ The sequence of keys to press using code formatting:
 /start <enter> ce base <esc> n n n  :wq <enter>
 ```
 We use ```/start <enter>```, to find the instances of where ```start``` appears, to quickly locate the word. When we hit the <enter> key, the cursor will find this word.
-![](7-1A-SearchForStart.png)
-*We have found the first instance of ```start```.*
-![](7-1B-Enter.png) 
-*Pressing ```<enter>``` moves our cursor there.* 
-
+![](https://github.com/jraynovi/cse15l-lab-reports/blob/main/week-7-lab/Screen%20Shot%202022-12-02%20at%2011.53.00%20PM.png?raw=true)
+### *We have found the first instance of ```start```.*
 \
-The keys ```ce base``` allow us to replace the word to base. ```ce``` allows us to replace the word from the location of the cursor until the end of the word, but since our cursor is at the front of the word, it will change the whole word. We are then in insert mode and can change the variable to ```base```. Pressing ```<esc>``` will take us out of insert mode. 
-![](7-2A-ce.png)
-*```ce``` gets rid of the entire word and leaves the cursor where it is. We can see at the bottom that we are in insert mode.*
-![](7-2B-base.png) 
-*We can then type ```base``` to replace the word.*
-
-\
-We can then press ```n .``` repeatedly until each instance of ```start``` has been change. ```n```, which is related to our call to search (```/```) we made earlier, will bring the cursor to all the instances of ```start```, and the ```.``` will repeat the last command we did, which, in our case is ```ce base``` (changes the word to base). 
+```ce base``` will allow us to replace the word with base. Using ```ce``` replcaes the word from the location of the cursor until the end of the word, since our cursor is at the front of the word, it will change entire word. We must go into insert mode and change the word to ```base```. 
+ 
+We can ```n .``` until each instance of ```start``` has been changed. This command: ```n```, similar to (```/```) we made earlier, gets the cursor to each instances ```start```, and ```.``` will repeat the last command we did, which, in our case is ```ce base``` (change the word to base). 
 ![](7-3A-n.png)
 *Typing ```n``` has found the next instance of ```start```.*
 ![](7-3B-DOT.png) 
