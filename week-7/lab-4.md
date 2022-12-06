@@ -2,9 +2,11 @@
 In this lab report we will be using ```vim``` to edit files in insert.
 
 Begin by logging into your ieng6 remote server as usual. In your terminal, use ```vim``` to edit from the command line: 
-![](https://github.com/jraynovi/cse15l-lab-reports/blob/main/week-7/1ALAB4.png?raw=true)
+![](https://github.com/jraynovi/cse15l-lab-reports/blob/main/week-7/LAB4-1A.png?raw=true)
 
-Change the name of the ```start``` parameter to ```base```
+### Change the name of the ```start``` parameter to ```base```
+
+We begin by finding the first instance of ```start``` :
 
 The sequence of keys to press using code formatting:
 
